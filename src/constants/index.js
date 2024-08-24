@@ -43,7 +43,7 @@ export const PROJECTS = [
   {
     title: "Portfolio Website",
     image: project1,
-    link:"https://www.google.com/",
+    link:"https://ramusiripalli.vercel.app/",
     gitHubLink:"https://github.com/ramusiripalli/RamuPortfolio",
     description:
       "A personal portfolio website that highlights my projects, showcases my skills, and provides easy access to contact information. This site reflects my journey as a developer, offering an in-depth look at my work, achievements, and the technologies I specialize in.",
