@@ -44,7 +44,7 @@ export const PROJECTS = [
     title: "Portfolio Website",
     image: project1,
     link:"https://www.google.com/",
-    gitHubLink:"https://github.com/ramusiripalli/RamuEatsDeliveryApp",
+    gitHubLink:"https://github.com/ramusiripalli/RamuPortfolio",
     description:
       "A personal portfolio website that highlights my projects, showcases my skills, and provides easy access to contact information. This site reflects my journey as a developer, offering an in-depth look at my work, achievements, and the technologies I specialize in.",
     technologies: ["HTML", "CSS", "React", "Tailwind CSS", "Framer Motion"],
@@ -53,7 +53,7 @@ export const PROJECTS = [
     title: "Blogging Application",
     image: project2,
     link:"https://blog-website-ramu-siripalli.vercel.app/",
-    gitHubLink:"https://github.com/ramusiripalli/RamuEatsDeliveryApp",
+    gitHubLink:"https://github.com/ramusiripalli/BlogWebsiteRamuSiripalli",
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
     technologies: ["React Js", "Node Js", "Prisma", "PostGres DB", "CloudFlare", "Tailwind CSS", "Hono Js"],
