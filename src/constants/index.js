@@ -41,6 +41,15 @@ O365, and Microsoft Teams environments from Allergan to AbbVie, minimizing disru
 
 export const PROJECTS = [
   {
+    title: "E-Commerce",
+    image: project1,
+    link:"https://e-commerce-ipl.onrender.com/",
+    gitHubLink:"https://github.com/ramusiripalli/E_Commerce_IPL/",
+    description:
+      "This e-commerce application is designed specifically to cater to IPL cricket enthusiasts, offering a platform to buy sports goods and merchandise themed around IPL franchises. The project features a robust structure with clear user roles and a streamlined workflow for managing and purchasing products.",
+    technologies: ["Node.js", "Express.js", "React","MongoDB", "Tailwind CSS","Redis","Cloudinary"],
+  },
+  {
     title: "Portfolio Website",
     image: project1,
     link:"https://ramusiripalli.vercel.app/",
