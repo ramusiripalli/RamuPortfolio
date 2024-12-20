@@ -2,47 +2,78 @@ import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.png";
+import project5 from "../assets/projects/project-5.png";
+import project6 from "../assets/projects/project-6.png";
 
-export const HERO_CONTENT = `I am a passionate full-stack developer with a talent for building robust and scalable web applications. With 3 years of hands-on experience, I've honed my skills in front-end technologies like JavaScript, React, and Next.js, and back-end technologies like Node.js, Express, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences`;
+export const HERO_CONTENT = `I am a passionate full-stack developer with a talent for building robust and scalable web applications. With 3+ years of hands-on experience, I've honed my skills in front-end technologies like JavaScript, React and back-end technologies like Node.js, Express, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 3+ years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
 export const EXPERIENCES = [
   {
     year: "2022 Apr - 2023 Mar",
     role: "Full Stack Developer",
     company: "Alepo Technologies Private Limited",
-    description: `Developed and maintained  web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js), ensuring efficient and scalable solutions. 
-    Conducted testing of .apk and .ipa files on multiple devices using BrowserStack, ensuring cross-platform compatibility and performance.
-    Designed and generated professional invoices utilizing the BIRT Tool, streamlining the billing process.
-    Created and optimized workflows for telecommunication flows, improving operational efficiency and process management.
-    Worked directly on the server side using MobaXterm, Visual Studio, PuTTY, and Vim editors, which significantly increased the speed and efficiency of code writing`,
-    technologies: ["Javascript", "React.js", "Birt Tool", "mongoDB", "Java", "Joget Work Flows", "My Sql"],
+    companyLink:"https://alepo.com/",
+    description: `As a passionate and skilled developer, I bring hands-on experience in the MERN stack, complemented by my impactful contributions at Alepo Technologies. My journey has been marked by creating dynamic and client-focused solutions that drive exceptional user engagement and elevate personalized experiences. 
+    During my time At Alepo, I spearheaded the development of innovative product features using React.js, resulting in enhanced interactivity and customer satisfaction. My expertise in backend engineering with Node.js enabled me to design and implement robust solutions, achieving a significant 30% improvement in API performance and reducing system response times.
+    I played a pivotal role in the successful launch of mission-critical applications, ensuring seamless delivery through meticulous planning, cross-functional collaboration, and efficient execution. Being an active participant in daily Agile development processes, I contributed to sprint planning, conducted code reviews, and collaborated closely with teams to drive the development of new and impactful features.
+    With a commitment to excellence and a proactive approach, I thrive on transforming complex challenges into innovative solutions, making me a valuable asset for any forward-thinking organization.
+    `,
+    technologies: ["Javascript", "React.js", "Node.js", "mongoDB", "Express", "Zustand", "Postman", 'Browser Stack']
   },
   {
     year: "2020 Feb - 2021 sept",
     role: "Programmer Analyst",
     company: "Cognizant Technology Solutions Private Limited",
-    description: `Hands-on experience in SharePoint ,React and .NET technologies, acquired through comprehensive training, enhancing proficiency in
-developing custom solutions and integrations to support organizational needs and streamline business processes.
-Utilized Quest on Demand tool alongside manual migration strategies to facilitate the seamless transition of Microsoft Streams,
-O365, and Microsoft Teams environments from Allergan to AbbVie, minimizing disruptions and maximizing productivity for end-user`,
-    technologies: ["HTML", "CSS", "SharePoint", "React.js", "JavaScript", "MySql"],
+    companyLink:"https://www.cognizant.com/us/en",
+    description: `During my tenure at Cognizant Technology Solutions, I honed my skills in front-end development by delivering impactful solutions that enhanced user experience and streamlined client operations. My contributions revolved around leveraging modern technologies and collaborative approaches to drive innovation and efficiency
+    I developed and maintained React.js applications, crafting dynamic and user-centric interfaces tailored to meet diverse client needs. By focusing on user experience, I ensured that the interfaces were both intuitive and engaging, delivering measurable improvements in client satisfaction.
+    In collaboration with cross-functional teams, I designed and implemented new React components, emphasizing responsive and scalable solutions for client-facing platforms. These components were meticulously engineered to adapt seamlessly to various use cases and devices.
+    A significant aspect of my role involved working closely with back-end developers to integrate RESTful APIs, enabling efficient data exchange and functionality. Additionally, I implemented state management using Zustand, ensuring a seamless and consistent data flow across the applications.
+    Recognizing the need for modernization, I spearheaded efforts to refactor legacy front-end code. By transitioning traditional systems to modern React frameworks, I enhanced code maintainability and efficiency, positioning client systems for long-term success.
+    This experience at Cognizant allowed me to merge technical expertise with collaborative problem-solving, making meaningful contributions to complex, high-impact projects.
+    `,
+    technologies: ["Mongo DB", "Express.js", "AngularJs", "Node.js", "Share Point", "MVC architecture", "My SQL"]
   },
   {
-    year: "2019 jun - 2020 jan",
-    role: "FULL STACK DEVELOPER INTERN",
+    year: "2019 july - 2020 jan",
+    role: "MERN DEVELOPER INTERN",
     company: "Edii Technoligy Private Limited",
-    description: `Developed and maintained web applications using JavaScript, Angular.js, and Node.js. Designed and implemented RESTful APIs for  communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Mongo DB", "Express.js", "AngularJs", "Node.js", "PostGres SQL", "Java"]
+    companyLink:"https://edii.in/",
+    description: `During my time at EDII Technology Solutions, I played a key role in shaping the MERN stack architecture to deliver robust and user-focused platforms that drive meaningful engagement and operational efficiency. My work revolved around full-stack development, innovative problem-solving, and cross-functional collaboration.
+    I developed and optimized the EDII platform's full-stack infrastructure, specifically enhancing communication between schools and parents. This resulted in a remarkable 30% boost in user engagement, showcasing my ability to translate complex requirements into impactful solutions.
+    To ensure the platform's reliability and efficiency, I integrated and automated API testing workflows using Swagger and Postman. By collaborating with cross-functional teams, I streamlined communication systems, achieving a 25% increase in overall efficiency. This effort exemplified my commitment to delivering high-quality, scalable solutions.
+    Working within the MERN stack framework, I designed and implemented dynamic, user-centric front-end interfaces and scalable back-end solutions. This cohesive approach ensured seamless data flow and optimized performance, contributing to a highly responsive and engaging platform experience.
+     My tenure at EDII Technology Solutions highlights my ability to innovate and deliver results within the MERN stack ecosystem, making a measurable impact on user satisfaction and operational effectiveness.
+    `,
+    technologies: ["Mongo DB", "Express.js", "AngularJs", "Node.js", "Swagger" , "Java", "PostGreSQL"]
   },
   
 ];
 
 export const PROJECTS = [
   {
+    title: "Ram Music Player",
+    image: project5,
+    link:"https://music-ramu.onrender.com/",
+    gitHubLink:"https://github.com/ramusiripalli/MusicPlayer_RamuSiripalli",
+    description:
+      `I designed and developed a sophisticated music player application that combines modern technology with an intuitive user experience. Built using the MERN stack with TypeScript, the platform is both robust and scalable, ensuring exceptional performance and maintainability.
+
+The application features a sleek and responsive user interface, meticulously styled with Tailwind CSS to deliver a visually appealing and seamless experience across devices. Authentication is securely managed through Google login integration via Clerk, providing a hassle-free and secure way for users to access the platform with reliable token verification and user management.
+
+To handle media assets effectively, the platform utilizes Cloudinary for the storage and management of MP3 files and album images, ensuring efficient and scalable media delivery. The application is hosted on Render, offering a dependable and high-performance deployment environment.
+
+A key highlight of the application is its Admin Dashboard, which empowers administrators to add new songs and albums effortlessly. The dashboard also provides insightful analytics and statistics on user interactions and application performance, enabling data-driven decision-making and continuous improvement.
+
+This music player application reflects my ability to deliver full-stack solutions that blend cutting-edge technology with user-focused design, resulting in a feature-rich and impactful platform.
+      `,
+    technologies: ["Node.js", "Express.js", "React","MongoDB", "Tailwind CSS","clerk","Cloudinary"],
+  },
+  {
     title: "E-Commerce",
-    image: project1,
+    image: project6,
     link:"https://e-commerce-ipl.onrender.com/",
     gitHubLink:"https://github.com/ramusiripalli/E_Commerce_IPL/",
     description:

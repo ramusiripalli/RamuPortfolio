@@ -13,6 +13,7 @@ import { SiHono } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
 import { FaCloudflare } from "react-icons/fa6";
 import { SiPrisma } from "react-icons/si";
+import { SiPostman } from "react-icons/si";
 import { motion } from 'framer-motion'
 
 const iconVariants = (duration) => ({
@@ -151,6 +152,12 @@ className="flex flex-wrap items-center justify-center gap-4">
   className="rounded-2xl border-4 border-neutral-800 p-3">
     <SiPrisma className="text-6xl"/>
     <p className="text-xs text-center">Prisma</p>
+  </motion.div>
+  <motion.div
+  variants= {iconVariants(2.0)} initial="initial" animate ="animate"
+  className="rounded-2xl border-4 border-neutral-800 p-3">
+    <SiPostman className="text-6xl text-orange-700"/>
+    <p className="text-xs text-center">Postman</p>
   </motion.div>
 
 

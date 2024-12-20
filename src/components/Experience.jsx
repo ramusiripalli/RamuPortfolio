@@ -24,7 +24,7 @@ const Experience = () => {
             initial= {{ opacity: 0, x : 100}}
             transition={{duration : 1}}
             className="w-full max-w-2xl lg:w-3/4">
-              <h6 className="mb-2 font-semibold">{experience.role}- <span className="text-sm text-purple-100">{experience.company}</span></h6>
+              <h6 className="mb-2 font-semibold">{experience.role}- <span className=" text-blue-400 underline"> <a href={experience.companyLink} target="_blank" className="animate-bounce w-9 h-9">{experience.company}</a></span></h6>
               <p className="mb-4 text-neutral-400">{experience.description}</p>
               {experience.technologies.map((tech,index) => (
                   <span key={index} className="mr-2 rounded bg-neutral-200 px-2 py-1 text-sm font-medium text-purple-900">{tech}</span>
