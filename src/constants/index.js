@@ -69,7 +69,7 @@ A key highlight of the application is its Admin Dashboard, which empowers admini
 
 This music player application reflects my ability to deliver full-stack solutions that blend cutting-edge technology with user-focused design, resulting in a feature-rich and impactful platform.
       `,
-    technologies: ["Node.js", "Express.js", "React","MongoDB", "Tailwind CSS","clerk","Cloudinary"],
+    technologies: ["Node.js", "Express.js", "React","MongoDB", "Tailwind CSS","clerk","Cloudinary","shadcn/ui"],
   },
   {
     title: "E-Commerce",

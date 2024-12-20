@@ -2,8 +2,7 @@ import React from 'react'
 import { PROJECTS } from '../constants'
 import { motion } from 'framer-motion'
 import { FaLink } from "react-icons/fa6";
-import { FaLinkedin, FaGithub, FaFileDownload } from "react-icons/fa";
-import { TbBrandLeetcode } from "react-icons/tb";
+import { FaGithub } from "react-icons/fa";
 
 const Projects = () => {
   return (
