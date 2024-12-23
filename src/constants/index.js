@@ -96,7 +96,7 @@ This music player application reflects my ability to deliver full-stack solution
     gitHubLink:"https://github.com/ramusiripalli/BlogWebsiteRamuSiripalli",
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["React Js", "Node Js", "Prisma", "PostGres DB", "CloudFlare", "Tailwind CSS", "Hono Js"],
+    technologies: ["React Js", "Node Js", "Prisma", "PostGres SQL", "CloudFlare", "Tailwind CSS", "Hono Js"],
   },
   {
     title: "Hunger Kart",
