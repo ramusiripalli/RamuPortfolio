@@ -74,24 +74,14 @@ const Technologies = () => {
     <SiExpress className="text-6xl text-yellow-500 "/>
     <p className="text-xs text-center">Express Js</p>
   </motion.div>
-        <motion.div
-        variants= {iconVariants(2.0)} initial="initial" animate ="animate"
-        className="rounded-2xl border-4 border-neutral-800 p-3">
-          <DiJava className="text-6xl text-blue-600"/>
-          <p className="text-xs text-center">Java</p>
-        </motion.div>
+        
         <motion.div
         variants= {iconVariants(2.0)} initial="initial" animate ="animate"
         className="rounded-2xl border-4 border-neutral-800 p-3">
           <FaHtml5 className="text-6xl"/>
           <p className="text-xs text-center">HTML</p>
         </motion.div>
-        <motion.div
-        variants= {iconVariants(2.0)} initial="initial" animate ="animate"
-        className="rounded-2xl border-4 border-neutral-800 p-3">
-          <SiTypescript className="text-6xl text-blue-600 pb-1"/>
-          <p className="text-xs text-center">TypeScript</p>
-        </motion.div>
+        
         <motion.div
         variants= {iconVariants(2.0)} initial="initial" animate ="animate"
         className="rounded-2xl border-4 border-neutral-800 p-3">
@@ -123,36 +113,14 @@ className="flex flex-wrap items-center justify-center gap-4">
     <SiVisualstudiocode className="text-6xl text-blue-500"/>
     <p className="text-xs text-center">V S Code</p>
   </motion.div>
-  <motion.div
-  variants= {iconVariants(1.0)} initial="initial" animate ="animate"
-  className="rounded-2xl border-4 border-neutral-800 p-3">
-    <FaAws className="text-6xl text-yellow-500"/>
-    <p className="text-xs text-center">aWS</p>
-  </motion.div>
+ 
   <motion.div
   variants= {iconVariants(4.0)} initial="initial" animate ="animate"
   className="rounded-2xl border-4 border-neutral-800 p-4">
     <FcLinux className="text-6xl text-green-500"/>
     <p className="text-xs text-center">Linux</p>
   </motion.div>
-  <motion.div
-  variants= {iconVariants(2.0)} initial="initial" animate ="animate"
-  className="rounded-2xl border-4 border-neutral-800 p-3">
-    <SiHono className="text-6xl text-orange-500"/>
-    <p className="text-xs text-center">Hono</p>
-  </motion.div>
-  <motion.div
-  variants= {iconVariants(5.0)} initial="initial" animate ="animate"
-  className="rounded-2xl border-4 border-neutral-800 p-3">
-    <FaCloudflare className="text-6xl text-orange-700 "/>
-    <p className="text-xs text-center">CLOUDFLARE</p>
-  </motion.div>
-  <motion.div
-  variants= {iconVariants(2.0)} initial="initial" animate ="animate"
-  className="rounded-2xl border-4 border-neutral-800 p-3">
-    <SiPrisma className="text-6xl"/>
-    <p className="text-xs text-center">Prisma</p>
-  </motion.div>
+  
   <motion.div
   variants= {iconVariants(2.0)} initial="initial" animate ="animate"
   className="rounded-2xl border-4 border-neutral-800 p-3">

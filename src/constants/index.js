@@ -4,6 +4,8 @@ import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.png";
 import project5 from "../assets/projects/project-5.png";
 import project6 from "../assets/projects/project-6.png";
+import project7 from "../assets/projects/project-7.png";
+
 
 export const HERO_CONTENT = `I am a passionate full-stack developer with a talent for building robust and scalable web applications. With 3+ years of hands-on experience, I've honed my skills in front-end technologies like JavaScript, React and back-end technologies like Node.js, Express, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences`;
 
@@ -72,6 +74,20 @@ This music player application reflects my ability to deliver full-stack solution
     technologies: ["Node.js", "Express.js", "React","MongoDB", "Tailwind CSS","clerk","Cloudinary","shadcn/ui"],
   },
   {
+    title: "XOXO -Blink Tic Tac Toe",
+    image: project7,
+    link:"https://blink-tac-toe-game-react.vercel.app/",
+    gitHubLink:"https://github.com/ramusiripalli/blink-tac-toe-game-react",
+    description:
+      `Blink Tic Tac Toe is my modern twist on the timeless Tic Tac Toe experience, 
+      built from the ground up with Vite, React, and Tailwind CSS. Instead of the traditional X’s and O’s, each player 
+      selects an emoji category—Player 1 in cyan and Player 2 in pink—adding a fun, 
+      personalized flair to every match. I implemented a “vanishing rule” so that emojis disappear after placement, forcing players to think ahead and adapt to an ever-changing board. 
+      To help users get started, there’s a built-in Help feature that clearly explains the rules and demonstrates gameplay strategies. The game also tracks wins on a dynamic scoreboard: when a player claims victory, their winning path lights up in yellow, the interface automatically navigates to the score page, and a celebratory confetti animation (powered by react-confetti) showers the winner’s name. Every aspect of styling—from responsive layouts to subtle hover effects—was crafted with Tailwind CSS for a clean, engaging look. This project showcases my ability to blend classic game design with modern front-end technologies, prioritizing both fun and clarity in the user experience.
+      `,
+    technologies: ["React","Tailwind CSS"],
+  },
+  {
     title: "E-Commerce",
     image: project6,
     link:"https://e-commerce-ipl.onrender.com/",
@@ -119,7 +135,7 @@ This music player application reflects my ability to deliver full-stack solution
 ];
 
 export const CONTACT = {
-  address: "G-306, Mayfair Apartments, Tellapur, Hyderabad- 502032",
+  address: "EWS-489 ,Road Number 2, KPHB-Phase 1, Hyderabad - 500072",
   phoneNo: "+91 7888588047 ",
   email: "ramusiripalli2425@gmail.com",
 };

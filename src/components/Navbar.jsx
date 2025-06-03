@@ -5,7 +5,7 @@ function Navbar(){
     return <nav className="mb-20 flex items-center justify-between py-6">
         <div className="flex flex-shrink-0 items-center"> 
             
-            <h6 className="text-3xl animate-spin">MERN</h6>
+            <h6 className="text-3xl animate-bounce">MERN</h6>
         </div>
         <div className="m-8 flex items-center justify-center gap-6 text-4xl">
         <a href="https://drive.google.com/file/d/1HlPIIFh_QcWAgnN56wuYZN7WxiBr48Vx/view?usp=sharing" target="_blank" className="animate-bounce w-6 h-6"><abbr title="Resume"><FaFileDownload /></abbr></a>
