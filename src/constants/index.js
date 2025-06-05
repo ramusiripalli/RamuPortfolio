@@ -5,11 +5,12 @@ import project4 from "../assets/projects/project-4.png";
 import project5 from "../assets/projects/project-5.png";
 import project6 from "../assets/projects/project-6.png";
 import project7 from "../assets/projects/project-7.png";
+import project8 from "../assets/projects/project-8.png";
 
 
 export const HERO_CONTENT = `I am a passionate full-stack developer with a talent for building robust and scalable web applications. With 3+ years of hands-on experience, I've honed my skills in front-end technologies like JavaScript, React and back-end technologies like Node.js, Express, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 3+ years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 2 years 6 months of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
 export const EXPERIENCES = [
   {
@@ -55,6 +56,33 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "Udyoga Setu Job Portal",
+    image: project8,
+    link:"https://udyogasetu.vercel.app/",
+    gitHubLink:"https://github.com/ramusiripalli/JobsFinder",
+    description:
+      `UdyogaSetu is a full-stack job-aggregation platform that brings together openings from LinkedIn, Naukri, Indeed, AngelList, Internshala and more into a single, responsive interface. Built with React (Vite + Tailwind CSS + Framer Motion) on the front end and Node.js/Express + MongoDB on the back end, it features:
+
+🔹 Unified Job Feed:  
+  Automatically pulls postings from multiple portals so users never have to juggle tabs.
+
+🔹 Real-Time Alerts:  
+  Sends Markdown-formatted Telegram notifications (and WhatsApp messages via Twilio) whenever a new job is added.
+
+🔹 Role-Based Dashboards:  
+  • Admin: Create, edit, or delete jobs; view total counts and the latest six postings in card form; browse all jobs in a sortable list.  
+  • User: Filter by location, portal, or title; see “Jobs Posted” metrics; apply directly via “Apply Now” buttons that link to the original listing.
+
+🔹 Secure Auth:  
+  Bcrypt-hashed passwords, JWT-based login/register, and an “isAdmin” middleware guard restricts job-management routes.
+
+🔹 Responsive Design:  
+   Mobile-first layouts, a collapsible sidebar for small screens, and fluid grid cards ensure a polished experience on any device.
+  
+      `,
+    technologies: ["Node.js", "Express.js", "React","MongoDB", "Tailwind CSS","clerk","Cloudinary","shadcn/ui"],
+  },
   {
     title: "Ram Music Player",
     image: project5,
